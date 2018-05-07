@@ -15,7 +15,10 @@
   };
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.returnEvent;
+    module.exports = {
+      returnEventValue: nx.returnEventValue,
+      returnEventTarget: nx.returnEventTarget
+    };
   }
 
 }());
