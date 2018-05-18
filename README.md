@@ -8,5 +8,12 @@ npm install -S afeiship/next-return-event --registry=https://registry.npm.taobao
 
 ## usage:
 ```js
-//DOCS here!
+var event = { target:{ value } };
+var value = 123;
+
+nx.returnEventValue(event);
+// value
+
+nx.returnEventTarget(value);
+// { target: { value: 123 } }
 ```
