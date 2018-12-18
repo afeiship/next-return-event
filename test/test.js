@@ -1,17 +1,17 @@
 var assert = require('assert');
 var nx = require('next-js-core2');
-require('../src/next-return-event');
+require('../src/next-stub-event');
 
-describe('next/returnEvent', function () {
+describe('next/stubEvent', function () {
 
-  it('nx.returnEventValue', function () {
+  it('nx.stubEventValue', function () {
     var evt = { target: { value: 'test'}}
-    var rs = nx.returnEventValue(evt);
+    var rs = nx.stubEventValue(evt);
     assert.equal(rs, 'test');
   });
 
-  it('nx.returnEventTarget', function () {
-    var rs = nx.returnEventTarget('test');
+  it('nx.stubEventTarget', function () {
+    var rs = nx.stubEventTarget('test');
     assert.deepEqual(rs.target.value, 'test');
   });
 
