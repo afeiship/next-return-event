@@ -1,7 +1,7 @@
 {
-  "name": "next-return-event",
-  "description": "Return event for react component",
-  "main": "dist/next-return-event.js",
+  "name": "next-stub-event",
+  "description": "Stub event for react component",
+  "main": "dist/next-stub-event.js",
   "authors": [
     "afei"
   ],
@@ -9,7 +9,7 @@
   "keywords": [
     "next"
   ],
-  "homepage": "https://github.com/afeiship/next-return-event",
+  "homepage": "https://github.com/afeiship/next-stub-event",
   "moduleType": [
     "amd"
   ],

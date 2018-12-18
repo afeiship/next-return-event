@@ -1,8 +1,8 @@
 {
-  "name": "next-return-event",
-  "version": "0.0.0",
-  "description": "Return event for react component",
-  "homepage": "https://github.com/afeiship/next-return-event",
+  "name": "next-stub-event",
+  "version": "1.0.0",
+  "description": "Stub event for react component",
+  "homepage": "https://github.com/afeiship/next-stub-event",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -11,7 +11,7 @@
     "build": "gulp",
     "test": "mocha"
   },
-  "main": "dist/next-return-event.js",
+  "main": "dist/next-stub-event.js",
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",

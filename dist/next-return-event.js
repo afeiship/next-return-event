@@ -3,12 +3,12 @@
   var global = global || this || self || window;
   var nx = global.nx || require('next-js-core2');
 
-  nx.returnEventValue = function (inEvent) {
+  nx.stubEventValue = function (inEvent) {
     var target = inEvent.target;
     return target ? target.value : null;
   };
 
-  nx.returnEventTarget = function (inValue) {
+  nx.stubEventTarget = function (inValue) {
     return {
       target: { value: inValue }
     };
@@ -16,8 +16,8 @@
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = {
-      returnEventValue: nx.returnEventValue,
-      returnEventTarget: nx.returnEventTarget
+      returnEventValue: nx.stubEventValue,
+      returnEventTarget: nx.stubEventTarget
     };
   }
 
