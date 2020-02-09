@@ -1,13 +1,15 @@
 # next-stub-event
-> Stub event for react component
+> Stub event for react component.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-stub-event --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-stub-event
 ```
 
-## usage:
+## usage
 ```js
+import '@feizheng/next-stub-event';
+
 var event = { target:{ value } };
 var value = 123;
 
