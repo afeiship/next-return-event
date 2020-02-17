@@ -3,8 +3,7 @@
   var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.stubEventValue = function(inEvent) {
-    var target = inEvent.target;
-    return target ? target.value : null;
+    return nx.get(inEvent, 'target.value', null);
   };
 
   nx.stubEventTarget = function(inValue) {
