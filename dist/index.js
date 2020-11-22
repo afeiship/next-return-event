@@ -3,7 +3,7 @@
  * description: Stub event for react component.
  * homepage: https://github.com/afeiship/next-stub-event
  * version: 1.0.0
- * date: 2020-11-22 16:55:35
+ * date: 2020-11-22 16:57:47
  * license: MIT
  */
 
